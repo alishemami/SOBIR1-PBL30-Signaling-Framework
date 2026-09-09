@@ -1,0 +1,8 @@
+# Putative inter-chain contacts (<4.5 A) in the rank-1 relaxed
+# AlphaFold2-multimer v3 model (ColabFold run, September 2026).
+# Chain A = SOBIR1 cytoplasmic 306-641 (PDB numbering 1-336; real = PDB + 305)
+# Chain B = PBL30 1-419 (PDB numbering = real numbering)
+SOBIR1_interface_PDB_numbering: 52, 221, 222, 223, 224, 225, 226, 228, 233, 234, 235, 236, 260, 261, 262, 266, 267, 268, 271, 272, 317, 319
+SOBIR1_interface_real_numbering: 357, 526, 527, 528, 529, 530, 531, 533, 538, 539, 540, 541, 565, 566, 567, 571, 572, 573, 576, 577, 622, 624
+PBL30_interface_numbering: 251, 252, 253, 254, 255, 259, 260, 262, 265, 266, 267, 268, 269, 270, 271, 273, 295, 297, 301, 304, 308, 351, 352, 353
+total_contact_pairs: 56
