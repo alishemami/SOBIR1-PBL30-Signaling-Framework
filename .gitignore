@@ -18,3 +18,4 @@ venv/
 *.pdb
 *.zip
 .sglock/
+clustalo_job_id.txt
