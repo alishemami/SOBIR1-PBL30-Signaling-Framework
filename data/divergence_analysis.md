@@ -111,3 +111,20 @@ PBL30 and PBL31/32.
 - Alignment: data/pbl_family_clustal_aligned.aln (Clustal Omega)
 - Script: scripts/divergence_map.py
 - Structure: AlphaFold AF-P27450-F1 (PBL30)
+
+## Visual Confirmation (Reproducible Figure)
+
+Generated using scripts/make_pbl30_figure.pml on 2026-09-12:
+- Structure: AlphaFold model AF-P27450-F1-model_v6.pdb (v6, 2025-08-01)
+- Coloring: pLDDT confidence (blue=high, orange=low)
+- Highlight: C-terminal residues 376-419 (red sticks)
+
+**Observation:** The divergent C-tail (376-419) is a disordered, solvent-exposed
+extended chain that projects away from the folded kinase core — consistent
+with a flexible partner-recruitment module rather than a structured binding patch.
+
+See: figures/pbl30_ctail_highlight.png
+
+**Methodological note:** Figure is fully reproducible from the script; no
+manual editing was performed. This ensures scientific rigor and allows
+others to regenerate the exact same visualization.
