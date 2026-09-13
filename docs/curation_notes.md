@@ -7,3 +7,7 @@
 - [ ] Verify source for the SOBIR1 transmembrane GxxxG dimerization motif.
 - [ ] Re-check PBL30 clade naming (VII-7) against current literature.
 - [ ] Re-verify average pLDDT (~81.06) quoted from AlphaFold DB entry AF-Q9SKB2-F1.
+- [ ] `data/divergence_analysis.md` refers to a sliding-window divergence
+      script that was never committed to `scripts/`. Either add it (with
+      the exact window/step/threshold used) or keep the current honest
+      "not committed" note — don't leave a dangling path reference.
