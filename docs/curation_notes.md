@@ -7,10 +7,12 @@
 - [ ] Verify source for the SOBIR1 transmembrane GxxxG dimerization motif.
 - [ ] Re-check PBL30 clade naming (VII-7) against current literature.
 - [ ] Re-verify average pLDDT (~81.06) quoted from AlphaFold DB entry AF-Q9SKB2-F1.
-- [ ] `data/divergence_analysis.md` refers to a sliding-window divergence
-      script that was never committed to `scripts/`. Either add it (with
-      the exact window/step/threshold used) or keep the current honest
-      "not committed" note — don't leave a dangling path reference.
+- [x] `scripts/divergence_map.py` added (2026-09-13); it also now scores
+      substitution divergence separately from paralog-gap/indel divergence
+      — the original combined scoring made a 9-residue PBL30-specific
+      C-terminal extension (411-419, real, both paralogs simply stop
+      earlier) look like a 10-residue run of amino-acid substitutions.
+      See the updated tables in `data/divergence_analysis.md`.
 - [x] Nomenclature resolved (2026-09-10): PBL30 = CST/CAST AWAY = At4g35600 = P27450 (Rao et al. 2018 RLCK-VII nomenclature; UniProt Araport xref). PBL31 = At1g76360 = F4I2C7. PBL32 = At2g17220 = Q9SII6 (PIX13).
 - [x] Wrong accessions discarded: Q9ZU46 (= ZAR1) and Q9M9C5 (= At1g68400) were initially mistaken for PBL32/PBL31.
 - [x] Trap recorded: At5g08720 = HCF145, NOT CST; never reuse this locus for PBL30.

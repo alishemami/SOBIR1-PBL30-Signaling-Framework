@@ -13,8 +13,7 @@ original plan here for the record.
 
 ## Phase 4 plan (completed)
 1. Divergence mapping from the Clustal Omega MSA (sliding-window identity
-   of PBL30 vs PBL31/PBL32) — done (script not yet committed to this
-   repo — see `docs/curation_notes.md`).
+   of PBL30 vs PBL31/PBL32) — done, `scripts/divergence_map.py`.
 2. Overlay divergent windows on the AlphaFold model (pLDDT, surface
    exposure) — done, `figures/pbl30_ctail_highlight.png`.
 3. Cross-check divergent regions against phosphosites of PBL30's C-tail —
