@@ -53,30 +53,21 @@ confirmed by two independent methods.**
 
 ## Interpretation
 
-### Hypothesis Tested (REJECTED)
-"If Thr253/Thr258/Tyr266 are responsible for dual-role specificity
-(immunity vs. abscission), they should differ between PBL30 (which has
-both roles) and PBL31/PBL32 (which have only the immunity role)."
+The starting hypothesis was that Thr253/Thr258/Tyr266 might be the
+dual-role switch: if they controlled abscission specifically, they should
+differ between PBL30 (immunity + abscission; Burr 2011, Huang 2024) and its
+immunity-only relatives PBL31/PBL32 (Rao 2018). They don't — all three
+sites are identical across all three kinases, so this hypothesis doesn't
+hold up.
 
-### Why Rejected
-- PBL30 = immunity + abscission (Burr 2011, Huang 2024)
-- PBL31 = immunity only (Rao 2018)
-- PBL32 = immunity only (Rao 2018)
+That's still a useful result. Full conservation across a clade where only
+one member has the extra (abscission) role points to a shared, more basic
+function rather than a specificity switch — most likely catalytic
+regulation and activation-loop stabilization that all three kinases need
+to be active at all, rather than something PBL30-specific.
 
-If these sites controlled abscission, they would be absent or different in
-PBL31/PBL32. Instead, they are fully conserved → they likely serve a
-**shared, fundamental function** in all three kinases.
-
-### Likely True Role of These Sites
-Given their location in the activation loop and complete conservation:
-- Catalytic regulation common to all family members
-- Activation-loop stabilization required for kinase activity
-- A general phosphorylation-dependent activation mechanism shared across
-  the clade
-
-### Methodological Validation
-Two independent alignment methods (pairwise Biopython and Clustal Omega MSA)
-produced identical results, demonstrating robustness of the finding.
+Pairwise Biopython alignment and the independent Clustal Omega MSA agree
+on all three positions, so this isn't an artifact of one alignment method.
 
 ## Implications for the "Dual-Role" Question
 The switch that directs signaling toward immunity vs. abscission must lie
